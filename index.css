@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #efefef;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    background-color: #ffffff;
+    border-bottom: 0.1px solid #d3d3d3;
+}
+img{
+    width: 52px;
+    height: 52px;
+    margin-right: 45px;
+}
+
+.ouwaou__nav-start {
+    display: flex;
+    align-items: center;
+}
+.ouwaou__nav-start ul > li,.ouwaou__nav-end ul > li{
+    list-style: none;
+    display: inline-block;
+}
+.ouwaou__nav-start ul li a, .ouwaou__nav-end ul li a {
+    text-decoration: none;
+    color: gray;
+}
+ul li a:hover {
+    color: black;
+}
+.ouwaou__nav-start ul > li a i, .ouwaou__nav-end ul > li a i {
+    font-size: 28px;
+    margin: 0 15px;
+}
+.ouwaou__nav-center{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    width: 240px;
+    height: 40px;
+}
+.ouwaou__nav-center i {
+    font-size: 28px;
+}
+.ouwaou__nav-center input {
+    border: none;
+    background:#d3d3d3;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+.ouwaou__nav-end {
+    display: flex;
+}
+/*main*/
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4.5rem;
+}
+.ouwaou__sidebar-start, .ouwaou__sidebar-end {
+    width: 280px;
+    height: 430px;
+    border: 1px solid #d3d3d3;
+    margin: 20px 0 0 62px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+/*sidebar start*/
+.ouwaou__profile{
+    
+}
+.ouwaou__profile h2 {
+    font-size: 22px;
+}
+.ouwaou__profile img {
+    border-radius: 50%;
+
+}
+.ouwaou__sidebar-end {
+
+}
+/
